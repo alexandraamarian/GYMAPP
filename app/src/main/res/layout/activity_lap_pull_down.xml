@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LapPullDownActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="Instructions"
+        android:textColor="@color/purple_200"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="237dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="72dp"
+        android:text="     The pulldown exercise works the back muscles and is performed at a workstation with adjustable resistance, usually plates. While seated, you pull a hanging bar down toward you, to reach chin level, and then release it back up with control for one repetition. This exercise can be done as part of an upper-body strength workout."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="456dp"
+        android:text="     Grasp the bar with a wide grip with an overhand, knuckles-up grip. Other positions and grips are possible, but start with this standard position."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="389dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="352dp"
+        android:text="     The bar should be at a height that your outstretched arms can comfortably grasp the bar without having to fully stand up, but you should also be able to still extend your arms to achieve full range of motion. If the station has a thigh pad, adjust it so that the upper thighs are tucked firmly under the pad. This will assist you when you apply effort to the bar."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="389dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="280dp"
+        android:text="     Sit comfortably on the pulldown seat, with your feet flat on the floor. Check the height of the bar. You may need to adjust the bar height by shortening or lengthening the chain or cable that supports the bar, or your seat height."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Lap Pull Down"
+        android:textColor="@color/purple_200"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="644dp"
+        android:text="Back"
+        android:backgroundTint="#8C56EC"
+        android:onClick="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="390dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="512dp"
+        android:text="     Pull the bar down until it's approximately level with the chin. Exhale on the downward motion. While shifting just slightly backward is OK, aim to keep your upper torso stationary. Keep your feet flat on the floor and engage your abs as you pull. The bottom of the motion should be where your elbows can't move downward any more without moving backward. Be sure to stop at that point and do not go lower."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="202dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lappulldown" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

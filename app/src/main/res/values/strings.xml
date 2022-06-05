@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GYMAPP</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_continue">Continue</string>
+    <string name="check_info_button">Check info</string>
+</resources>

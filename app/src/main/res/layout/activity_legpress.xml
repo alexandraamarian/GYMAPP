@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LegpressActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="217dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="68dp"
+        android:text="      The leg press is a popular piece of gym equipment that can help build key muscles in your legs. "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Leg press"
+        android:textColor="@color/purple_200"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="195dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/legpress" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="218dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="136dp"
+        android:text="      It is used to develop the quadriceps and hamstrings of the thigh as well as the glutes. While it seems like a simple exercise, it's important to learn how to use it properly. By paying attention to your form, you can maximize the strength-building benefits and prevent injury. The leg press is used as part of a leg strengthening routine or a machine circuit workout. "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:text="Instructions"
+        android:textColor="@color/purple_200"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="377dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="380dp"
+        android:text="      When you sit down at a leg press machine, your body should be in a particular position. Sit on the machine with your back and head resting comfortably against the padded support. Place your feet on the footplate about hip-width apart while ensuring that your heels are flat."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="376dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="472dp"
+        android:text="      Your bottom should be flat against the seat rather than raised. Your legs should form an angle of about 90 degrees at the knees. If your feet are too high on the plate, it will stress your glutes; too low and it puts unnecessary pressure on your knees. Your knees should be in line with your feet and neither be bowed inward nor outward."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="380dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="564dp"
+        android:text="      As you press, make sure to keep this alignment. Grasp the assist handles to provide support and keep your spine and head in position."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="644dp"
+        android:text="Back"
+        android:backgroundTint="#8C56EC"
+        android:onClick="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

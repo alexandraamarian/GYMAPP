@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LegExtensionActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="357dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="568dp"
+        android:textColor="@color/black"
+        android:text="3.   Exhale and lower the weight back to starting position."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="508dp"
+        android:textColor="@color/black"
+        android:text="2.   Lift the weight while exhaling until your legs are almost straight. Do not lock your knees. Keep your back against the backrest and do not arch your back."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Leg Extension"
+        android:textColor="@color/purple_200"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="644dp"
+        android:text="Back"
+        android:backgroundTint="#8C56EC"
+        android:onClick="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="247dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="88dp"
+        android:text="      Leg extensions are exercises usually done with a lever machine. You sit on a padded seat and raise a padded bar with your legs. The exercise works mainly the quadriceps muscles of the front of the thigh—the rectus femoris and the vastus muscles. You can use this exercise to build lower body strength and muscle definition as part of a strength training workout."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="189dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@drawable/legextension" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="256dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="260dp"
+        android:textColor="@color/black"
+        android:text="      The leg extension targets the quadriceps, which are the large muscles of the front of the thigh. Technically, this is an &quot;open chain kinetic&quot; exercise, which is different from a &quot;closed chain kinetic exercise,&quot; such as a squat."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:text="Instructions"
+        android:textColor="@color/purple_200"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="387dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="404dp"
+        android:textColor="@color/black"
+        android:text="      Set up the leg extension machine so the pad is at the top of your lower legs at the ankles. Your knees are at 90 degrees. Select a weight that will give you a moderate load for 10 to 12 repetitions."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="346dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="476dp"
+        android:textColor="@color/black"
+        android:text="1.   Place your hands on the hand bars."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="359dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="600dp"
+        android:textColor="@color/black"
+        android:text="4.   Do three sets of eight to 12 repetitions."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

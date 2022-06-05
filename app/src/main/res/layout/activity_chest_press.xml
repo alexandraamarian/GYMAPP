@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChestPressActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Chest press"
+        android:textColor="@color/purple_200"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="644dp"
+        android:text="Back"
+        android:backgroundTint="#8C56EC"
+        android:onClick="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="224dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="96dp"
+        android:textSize="14dp"
+        android:text="      This exercise targets the pectorals, the main muscles of the chest. These are the same muscles you use when pushing a grocery cart or to get up off the floor."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        app:srcCompat="@drawable/chestpress" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="224dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="184dp"
+        android:textSize="14dp"
+        android:text="      Developing the pecs is an aesthetic goal for many people. It's also important because strength in these muscles decreases with age, potentially increasing your injury risk while decreasing your mobility and quality of life."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:text="Instructions"
+        android:textColor="@color/purple_200"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="379dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="472dp"
+        android:text="      Begin by adjusting the seat to a height that allows you to align the handles with the middle of your chest. To determine an appropriate weight for your workout, start with about 25% of your body weight. Then increase 5-10lbs every set, until you find a weight that challenges you to complete 10 repetitions. Once you have your weight selected, use your legs to press out the foot advance pedal. This will bring the handles to the start position."
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="379dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="308dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:text="      The chest press machine also recruits the biceps and the big muscles of the shoulders and back. That makes this exercise especially beneficial for those who participate in sports that involve the swinging of a bat, racket, or club. The chest press is sometimes used to assess the strength and power of elite athletes."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
