@@ -1,0 +1,2 @@
+# GYMAPP
+An app that can help people that have never been to the gym and not only, provides information about the equipment one can find in the gym. The user can choose what he will focus on at the gym and the app will display the equipment/machines used for that part of the body. The user can choose one of the machines displayed and read the info where it’s explained how the machine works. The user can choose from a list of injuries and the machines that are not good for their health will be eliminated (or a warning will be displayed).
